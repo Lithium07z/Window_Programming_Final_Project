@@ -50,7 +50,7 @@ namespace Final_Project
         private void Form1_Load(object sender, EventArgs e)
         {
             // Firebase 코드
-            string path = AppDomain.CurrentDomain.BaseDirectory + @"windows-forms-final-project-firebase-adminsdk-pcw1n-5b8352b3ef.json";
+            string path = AppDomain.CurrentDomain.BaseDirectory + @"deleted";
             Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", path);
 
             db = FirestoreDb.Create("windows-forms-final-project");
