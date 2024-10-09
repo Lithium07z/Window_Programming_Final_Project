@@ -18,7 +18,7 @@ namespace Final_Project
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            string path = AppDomain.CurrentDomain.BaseDirectory + @"windows-forms-final-project-firebase-adminsdk-pcw1n-5b8352b3ef.json";
+            string path = AppDomain.CurrentDomain.BaseDirectory + @"deleted";
             Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", path);
 
             db = FirestoreDb.Create("windows-forms-final-project");
